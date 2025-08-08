@@ -1,0 +1,30 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "xieej.md"
+theme = "hugo-PaperMod"
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  customCSS = ["css/stylesheet.css"]
